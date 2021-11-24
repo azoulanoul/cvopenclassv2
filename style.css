@@ -41,6 +41,7 @@ header{
         
     }
 }
+
 /* H1 H1 H1 */
 h1{
     font-size: 4em;
@@ -69,6 +70,25 @@ a{
     border: 1px solid rgba(255, 255, 255, 0.125);
     border-radius: 50%;
   
+}
+@media (max-width:320px){
+    header{
+        height: auto;
+    }
+    h1{
+        text-align: center;
+    }
+    .container-selfie{
+        margin-bottom:20px;
+    }
+    .trois-block{
+        margin: auto;
+     
+    }
+    .main-content{
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 @media (max-width:880px){
     .container-selfie{
@@ -182,7 +202,7 @@ a{
 }
 @media (max-width:880px){
     .liseret{
-      display:none;
+      display: none;
     }
 
 }
