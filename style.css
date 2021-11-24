@@ -182,13 +182,7 @@ a{
 }
 @media (max-width:880px){
     .liseret{
-        position: absolute;
-        display: flex;
-        flex-direction: row;
-        width: 600px;
-        height: auto;
-	padding:15px;
-        bottom: 15px;
+      display:none;
     }
 
 }
